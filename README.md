@@ -88,4 +88,8 @@ Una vez que el servidor de desarrollo esté corriendo, puedes acceder a la API e
 - `PUT /api/tasks/{id}` - Actualizar una tarea existente.
 - `DELETE /api/tasks/{id}` - Eliminar una tarea.
 
+## Colección de Postman
 
+Para facilitar las pruebas de la API, se incluye una colección de Postman. Puedes descargarla desde el siguiente enlace:
+
+- [Colección de Postman](postman_collection/TaskManager.postman_collection.json)
