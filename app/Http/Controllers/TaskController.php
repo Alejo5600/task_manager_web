@@ -10,9 +10,10 @@ class TaskController extends Controller
     // Obtener todas las tareas
     public function index()
     {
-        $tasks = Task::all();
+        $tasks = Task::orderBy('created_at', 'desc')->get();
         return response()->json($tasks);
     }
+    
 
     // Crear una nueva tarea
     public function store(Request $request)
